@@ -169,3 +169,19 @@ main{
     width: 30%;
   }
 }
+
+.imagen-portada {
+  animation: parpadear 1s infinite;
+}
+
+@keyframes parpadear {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
